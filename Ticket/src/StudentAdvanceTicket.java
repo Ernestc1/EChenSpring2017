@@ -1,8 +1,8 @@
 
 public class StudentAdvanceTicket extends AdvanceTicket{
 
-	public StudentAdvanceTicket(int n, double p) {
-		super(n, p);
+	public StudentAdvanceTicket(int n) {
+		super(n);
 		// TODO Auto-generated constructor stub
 	}
 	public double getPrice(){

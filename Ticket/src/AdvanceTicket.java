@@ -1,8 +1,8 @@
 
 public class AdvanceTicket extends Ticket{
 	private int daysBefore;
-	public AdvanceTicket(int n, double p) {
-		super(n, p);
+	public AdvanceTicket(int n) {
+		super(n);
 		// TODO Auto-generated constructor stub
 	}
 	public void setDaysBefore(){

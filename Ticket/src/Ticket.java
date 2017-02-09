@@ -2,15 +2,17 @@
 public class Ticket {
 	private int number;
 	private double price;
-	public Ticket(int n, double p){
+	public Ticket(int n){
 		n = number;
-		p = price;
+	}
+	public void setPrice(){
+		price = 50.0;
 	}
 	public double getPrice(){
-		price = 50.0;
+		setPrice();
 		return price;
 	}
 	public String toString(){
-		return("Number: " + number + "," + " Price: " + price);
+		return("Number: " + number + "," + " Price: $" + price);
 	}
 }
