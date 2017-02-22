@@ -1,0 +1,7 @@
+import java.io.*;
+import java.util.*;
+public class TempuratureDifference {
+	Scanner weather = new Scanner(new File ("./resources/weather"));
+	
+
+}
